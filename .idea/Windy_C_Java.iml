@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.github.haifengl:smile-core:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.haifengl:smile-math:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: com.github.haifengl:smile-graph:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.haifengl:smile-data:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.haifengl:smile-io:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: com.epam:parso:2.0.12" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-csv:1.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.24" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp-platform:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:android-arm:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:android-arm64:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:android-x86:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:android-x86_64:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:ios-arm64:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:ios-x86_64:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:linux-armhf:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:linux-arm64:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:linux-ppc64le:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:linux-x86:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:linux-x86_64:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:macosx-arm64:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:macosx-x86_64:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:windows-x86:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:javacpp:windows-x86_64:1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas-platform:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:android-arm:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:android-arm64:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:android-x86:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:android-x86_64:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:ios-arm64:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:ios-x86_64:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:linux-x86:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:linux-x86_64:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:linux-armhf:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:linux-arm64:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:linux-ppc64le:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:macosx-arm64:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:macosx-x86_64:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:windows-x86:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:openblas:windows-x86_64:0.3.19-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:arpack-ng-platform:3.8.0-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:arpack-ng:3.8.0-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:arpack-ng:linux-x86:3.8.0-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:arpack-ng:linux-x86_64:3.8.0-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:arpack-ng:linux-armhf:3.8.0-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:arpack-ng:linux-arm64:3.8.0-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:arpack-ng:linux-ppc64le:3.8.0-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:arpack-ng:macosx-x86_64:3.8.0-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:arpack-ng:windows-x86:3.8.0-1.5.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bytedeco:arpack-ng:windows-x86_64:3.8.0-1.5.7" level="project" />
+  </component>
+</module>
