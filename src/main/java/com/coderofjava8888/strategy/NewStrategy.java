@@ -89,9 +89,6 @@ public class NewStrategy {
             System.out.println("tesla6  " + tesla6);
             System.out.println("tesla9  " + tesla9);
             System.out.println("signal  " + signalDecision);
-           
-//        LiveBarPriorClassification test = new LiveBarPriorClassification(barInput.get(12).volume(), barInput.get(12).count(), barInput.get(12).wap(), tesla3, tesla6, tesla9, signalDecision);
-//TEMPORARY -
 
             var liveBarPriorClassification = new LiveBarPriorClassification(
                     barInput.get(b12).open(),
@@ -113,15 +110,7 @@ public class NewStrategy {
             return liveBarPriorClassification.executeOrNot(currentSymbolFUT);
         }
 
-//TEMPORARY -    ERASE/EDIT BELOW
-//  GOAL IS TO OBTAIN EXECUTE OR NO RETURN FROM MACHINE LEARNING PIECE.
-////        String executionOrNo = signalDecision;  //  <--- This is temporary.  Need link here to ML
-//
-//
-//        barInput.clear();
-//        return executionOrNo;
-
-        throw new RuntimeException("Bar size is less than 12");
+        throw new RuntimeException("Bar size: " + barInput.size() + " is less than 12");
     }
 
 }
