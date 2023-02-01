@@ -269,11 +269,14 @@ public class DataFrameUtils {
         return DataFrame.of(vectors);
     }
 
+    private static String[] currencies = {"AUD", "CHF", "EUR", "GBP", "JPY"};
+
     public static void main(String... args) throws IOException, URISyntaxException {
 
         final Formula formula = Formula.of("EXECUTE", "WAP", "Count", "Minute", "Tesla3", "Tesla6", "Tesla9", "Decision");
 
-        var dataframe = CsvReader.read("src/main/resources/AUD_train.csv", formula);
+        for(String currency: currencies){
+        var dataframe = CsvReader.read(String.format("src/main/resources/%s_train.csv", currency), formula);
         LoggingUtils.print("Dataframe\n" + dataframe.toString());
         LoggingUtils.print("Dataframe\n" + dataframe.summary().toString());
 
@@ -296,13 +299,17 @@ public class DataFrameUtils {
 
         LoggingUtils.print("Normalized\n" + normalizedDataframe.toString());
 //        LoggingUtils.print("Normalized\n" + normalizedDataframe.summary().toString());
+      
+        }
+        
     }
 
     public static void main3(String... args) throws IOException, URISyntaxException {
 
         final Formula formula = Formula.of("EXECUTE", "WAP", "Count", "Minute", "Tesla3", "Tesla6", "Tesla9", "Decision");
 
-        var dataframe = CsvReader.read("src/main/resources/AUD_train.csv", formula);
+        for(String currency: currencies){
+        var dataframe = CsvReader.read(String.format("src/main/resources/%s_train.csv", currency), formula);
 
         LoggingUtils.print("Initial DataFrame\n" + dataframe.toString());
 
@@ -319,12 +326,14 @@ public class DataFrameUtils {
 //        var normalizedDataframe = DataFrameUtils.toCategoricalDataFrame(doubleOnlyDataFrame, categoricalMapString);
 //
 //        LoggingUtils.print("Normalized\n" + normalizedDataframe.toString());
+        }
     }
 
     public static void main4(String... args) throws IOException, URISyntaxException {
         final Formula formula = Formula.of("EXECUTE", "WAP", "Count", "Minute", "Tesla3", "Tesla6", "Tesla9", "Decision");
-
-        var dataframe = CsvReader.read("src/main/resources/AUD_train.csv", formula);
+        
+        for(String currency: currencies){
+        var dataframe = CsvReader.read(String.format("src/main/resources/%s_train.csv", currency), formula);
 
         LoggingUtils.print("Initial DataFrame\n" + dataframe.toString());
 
@@ -341,6 +350,7 @@ public class DataFrameUtils {
 //        var normalizedDataframe = DataFrameUtils.toCategoricalDataFrame(doubleOnlyDataFrame, categoricalMapString);
 //
 //        LoggingUtils.print("Normalized\n" + normalizedDataframe.toString());
+        }
     }
 
 
